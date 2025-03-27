@@ -14,18 +14,23 @@
 }
 
 @media (max-width: 625px) {
-    
   .main-img {
     display: none;
   }
-  .main-text{
+  .main-text {
     align-items: center;
   }
-  .main-text button{
-    width: 100%;   
-    justify-content: center; 
+  .main-text button {
+    width: 100%;
+    justify-content: center;
   }
   .main-text .main-img {
     display: block;
+  }
+}
+
+@media (max-width: 484px) {
+  #header .container {
+    padding-inline: 0;
   }
 }
