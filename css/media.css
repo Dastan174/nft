@@ -129,6 +129,9 @@
   .creator-main {
     justify-content: center;
   }
+  .creator-main .creator-card:nth-child(6){
+    display: none;
+  }
   .creator-card {
     width: 100%;
   }
