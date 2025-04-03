@@ -41,6 +41,9 @@
     max-width: 80px;
     height: 80px;
   }
+  .trend-ava{
+    width: 70px;
+  }
 }
 
 @media (max-width: 498px) {
