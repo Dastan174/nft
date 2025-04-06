@@ -99,6 +99,11 @@
     width: 100%;
     max-width: 435px;
   }
+  .browse-main {
+    .browse-box {
+      width: 207px;
+    }
+  }
 }
 @media (max-width: 498px) {
   .trend-main .trend-card:nth-child(2) {
@@ -129,7 +134,7 @@
   .creator-main {
     justify-content: center;
   }
-  .creator-main .creator-card:nth-child(6){
+  .creator-main .creator-card:nth-child(6) {
     display: none;
   }
   .creator-card {
@@ -150,10 +155,27 @@
     left: 27px;
     top: 19px;
   }
+  .browse-main {
+    .browse-box {
+      width: 165px;
+    }
+  }
 }
 
 @media (max-width: 769px) {
   .creator-main {
     justify-content: center;
+  }
+  .browse-box;
+}
+
+@media (max-width: 1200px) {
+  .browse-box {
+    width: 190px;
+  }
+}
+@media (max-width: 1025px) {
+  .browse-box {
+    width: 150px;
   }
 }
