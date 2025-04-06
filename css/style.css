@@ -396,3 +396,46 @@ button {
   display: none;
 }
 /*? discover */
+
+/*? mushroom */
+#mushroom {
+  background-image: url("../image/bg.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  box-shadow: rgba(198, 39, 230, 0.35) 0px -550px 136px -28px inset;
+}
+.mushroom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.mush-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 25px;
+}
+.left-ava {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #3b3b3b;
+  padding: 15px;
+  border-radius: 20px;
+}
+.mush-left button {
+  background: #fff;
+  color: #2b2b2b;
+}
+.mush-left button ion-icon {
+  color: #a259ff;
+}
+#mushroom .container {
+  display: flex;
+  align-items: end;
+  height: 80vh;
+}
+/*? mushroom */
