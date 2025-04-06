@@ -255,11 +255,13 @@ button {
   gap: 15px;
   align-items: start;
 }
-.creator button {
+.creator button,
+.creator-top button {
   background: none;
   border: 1px solid #a259ff;
 }
-.creator button ion-icon {
+.creator button,
+.creator-top ion-icon {
   color: #a259ff;
 }
 
@@ -337,6 +339,60 @@ button {
 }
 .browse-title {
   padding: 20px 30px;
-
 }
 /*? browse */
+/*? discover */
+#discover {
+  padding-block: 50px;
+}
+.discover {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 25px;
+}
+.discover-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 25px;
+}
+.discover-box {
+  background: #3b3b3b;
+  border-radius: 20px;
+}
+.discover-title {
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.discover-name {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+}
+.discover-price {
+  display: flex;
+  justify-content: space-between;
+}
+.price-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.price-box p {
+  color: #ffffff92;
+}
+.price-box h3 {
+  font-weight: 300;
+}
+.discover-img {
+  width: 100%;
+}
+.discover-btn {
+  display: none;
+}
+/*? discover */

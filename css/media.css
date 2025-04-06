@@ -63,6 +63,10 @@
   .creator-card-title p {
     font-size: 18px;
   }
+
+  .discover-bottom .discover-box:last-child {
+    display: none;
+  }
 }
 
 @media (max-width: 745px) {
@@ -103,6 +107,24 @@
     .browse-box {
       width: 207px;
     }
+  }
+  .discover-bottom {
+    flex-direction: column;
+  }
+  .discover-bottom .discover-box:last-child {
+    display: block;
+  }
+  .discover-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;  
+    background: none;
+    width: 100%;
+    border: 1px solid #a259ff;
+  }
+  .discover-btn ion-icon{
+    color: #a259ff;
   }
 }
 @media (max-width: 498px) {
@@ -166,7 +188,6 @@
   .creator-main {
     justify-content: center;
   }
-  .browse-box;
 }
 
 @media (max-width: 1200px) {
