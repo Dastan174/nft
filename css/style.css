@@ -438,4 +438,104 @@ button {
   align-items: end;
   height: 80vh;
 }
+.mushroom img {
+  max-width: 295px;
+  width: 100%;
+}
+.toggle-mush {
+  display: none;
+}
 /*? mushroom */
+
+/*? works */
+#works {
+  padding-block: 50px;
+}
+.works {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+}
+.works-top {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+}
+.works-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  width: 100%;
+}
+.works-box {
+  width: 330px;
+  background: #3b3b3b;
+  padding: 25px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  border-radius: 20px;
+}
+.works-box img {
+  width: 110%;
+}
+.works-title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/*? works */
+
+/*? join */
+#join {
+  padding-block: 50px;
+}
+.join {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #3b3b3b;
+  padding: 50px;
+  border-radius: 20px;
+  gap: 15px;
+}
+.join-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  height: 280px;
+  gap: 15px;
+  max-width: 420px;
+  width: 100%;
+}
+.join img {
+  width: 100%;
+  max-width: 425px;
+}
+.btn-inp {
+  max-width: 420px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.btn-inp input {
+  width: 100%;
+  height: 60px;
+  border-radius: 20px;
+  padding-left: 25px;
+  /* z-index: -1000; */
+}
+.btn-inp button {
+  z-index: 1000;
+  position: absolute;
+  right: 0;
+}
+
+/*? join */
